@@ -5,9 +5,162 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #1A1B21;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.my-profile{
+  display:block;
+  text-align: center;
+}
+
+.my-image{
+  height: 250px;
+  width: 350px;
+  margin: 0%; 
+}
+
+.my-info{
+  align-content: center;
+  margin: 0%;
+  padding: 0%;
+  /* width: fill; */
+}
+
+.my-name{
+  margin-top: 10px;
+  margin-bottom: 0%;
+  font-size: 30px;
+  color :white;
+}
+
+.my-position{
+  color: #F3BF99;
+  font-size: 15px;
+  font-weight: 400;
+  margin-top: 1px;
+}
+
+.my-site{
+  color : #F5F5F5;
+  margin-top: 2px;
+}
+.connect-options{
+  font-weight:bold ;
+  margin: 0%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.connect-email{
+  background-color: white;
+  stroke: #D1D5DB;
+  border-radius: 10px;
+  align-content: center;
+  margin-top: 10px;
+  padding: 10px 50px;
+}
+.connect-linkedin{
+  background-color:#5093E2;
+  /* stroke: #D1D5DB; */
+  border-radius: 10px;
+  align-content: center;  
+  margin-top: 10px;
+  padding: 9px 40px;
+}
+.mail-logo{
+  padding-right: 10px;
+  align-content: center;
+  margin-bottom: 0%;
+}
+.linkedin-logo{
+  padding-right: 8px;
+  align-content: center;
+  margin: 0%;
+}
+
+.mail-text{
+  font-weight: 500;
+  font-size: 15px;
+  text-align: center;
+  display: inline-block;
+  color: #1A1B21;
+}
+
+.linkedin-text{
+  color: white;
+  font-weight: 500;
+  font-size: 15px;
+  text-align: center;
+  display: inline-block;
+}
+
+
+/* about block starts here  */
+
+.about-block{
+  margin: auto;
+  text-align: left;
+  max-width: 350px;
+  display: block;
+}
+.about-heading{
+  text-align: left;
+  margin-bottom: 0%;
+  color: #F5F5F5;
+}
+.about-para{
+  margin-top: 4px;
+  font-weight: lighter;
+  color: #DCDCDC;
+}
+
+/* interest  */
+.interest-block{
+  margin: auto;
+  text-align: left;
+  max-width: 350px;
+  display: block;
+  margin-bottom: 60px; 
+}
+.interest-heading{
+  text-align: left;
+  margin-bottom: 0%;
+  color: #F5F5F5;
+}
+.interest-para{
+  margin-top: 4px;
+  font-weight: lighter;
+  color: #DCDCDC;
+  margin-bottom: 10px;
+}
+
+/* social-sites style start here*/
+
+.foot{
+  position:fixed; 
+  bottom: 0;
+  width: fill;
+  background-color: #161619;
+  height: 50px;
+  margin-top: 10px;
+}
+.social-sites{
+  margin: auto;
+  margin-top: 12px;
+  max-width: 350px;
+  align-items: center;
+  
+}
+
+.social-links>a{
+  padding: 20px 30px;
+  margin-top: 30px;
 }
